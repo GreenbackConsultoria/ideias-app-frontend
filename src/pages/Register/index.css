@@ -1,0 +1,20 @@
+.register{
+  text-align: center;
+  position: relative;
+  width:100%;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--text-color);
+  padding: 40px;
+  border-radius: 4px;
+  width: 100%;
+  text-align: left;
+  color: #757575;
+  font-size: var(--font-size);
+  font-weight: 500;
+}

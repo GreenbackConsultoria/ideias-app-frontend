@@ -1,0 +1,83 @@
+:root{
+  --background-color: #020202;
+  --primary-color: #020202;
+  --text-color: #FBFBFF;
+  --font-size: 16px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--background-color);
+  font-family: "Quicksand", 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: var(--text-color);
+  font-size: var(--font-size);
+}
+
+/* TITLES */
+h1, h2, h3, h4, h5, h6{
+  font-family: "Quicksand", 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: var(--text-color);
+}
+
+input {
+  padding: 6px;
+  margin: 10px auto;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--primary-color);
+  font-family: "Quicksand", 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: var(--font-size);
+}
+
+.button{
+  border: 2px solid var(--text-color);
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 10px auto;
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 6px 6px rgba(0,0,0,.3);
+}
+
+.button:hover{
+  text-decoration: underline;
+  filter: brightness(140%);
+}
+
+.button.dark{
+  color: var(--text-color);
+  background: var(--primary-color);
+}
+
+.button.dark.noborder{
+  border-color: var(--primary-color);
+}
+
+.button.light{
+  background: var(--text-color);
+  color: var(--primary-color);
+}
+
+.link{
+  color: var(--text-color);
+  margin: 20px auto;
+  text-decoration: none;
+}
+
+.link.dark{
+  color: var(--primary-color);
+}
+
+.link:hover{
+  text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+import React from 'react';
+
+export default function Logo() {
+  return (
+    <svg width="148" height="46" viewBox="0 0 148 46" xmlns="http://www.w3.org/2000/svg" style={{margin: "20px auto"}}>
+      <path d="M7.0876 0.911255H0V45.0344H7.0876V0.911255Z" fill="#FBFBFF" />
+      <path d="M15.8057 23.0305C15.8057 36.5744 24.7489 45.04 39.0943 45.04H51.9519V0.911297H39.0943C24.7434 0.889337 15.8057 9.37138 15.8057 23.0305Z" fill="#FBFBFF" />
+      <path d="M85.3533 0.911255H58.4468V7.72983H78.2547V19.0393H61.1588V25.9347H78.2547V38.1445H58.4468V45.0399H85.3533V0.911255Z" fill="#FBFBFF" />
+      <path d="M99.836 0.911255H92.7539V45.0344H99.8415V0.911255H99.836Z" fill="#FBFBFF" />
+      <path d="M133.561 44.8643L140.072 45.0345H147.747L126.517 0H126.094L104.854 45.0345H144.052" fill="#FBFBFF" />
+    </svg>
+  )
+}

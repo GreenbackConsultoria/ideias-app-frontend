@@ -1,0 +1,14 @@
+.logon{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.logon .buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
